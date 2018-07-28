@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "Api\Api.csproj", "{6629A269-87ED-4F52-8C86-21A32D330B43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiCaller", "ApiCaller\ApiCaller.csproj", "{4CC98405-F100-4CB7-BEFB-91795DDF2667}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiCaller.Tests", "ApiCaller.Tests\ApiCaller.Tests.csproj", "{9F5CF2F1-E0D6-463F-BA57-ABCED4F064E0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6629A269-87ED-4F52-8C86-21A32D330B43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6629A269-87ED-4F52-8C86-21A32D330B43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6629A269-87ED-4F52-8C86-21A32D330B43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6629A269-87ED-4F52-8C86-21A32D330B43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CC98405-F100-4CB7-BEFB-91795DDF2667}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CC98405-F100-4CB7-BEFB-91795DDF2667}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CC98405-F100-4CB7-BEFB-91795DDF2667}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CC98405-F100-4CB7-BEFB-91795DDF2667}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F5CF2F1-E0D6-463F-BA57-ABCED4F064E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F5CF2F1-E0D6-463F-BA57-ABCED4F064E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F5CF2F1-E0D6-463F-BA57-ABCED4F064E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F5CF2F1-E0D6-463F-BA57-ABCED4F064E0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {85981E51-8C05-4204-A17F-3E546E011177}
+	EndGlobalSection
+EndGlobal
